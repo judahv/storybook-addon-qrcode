@@ -28,7 +28,6 @@ addons.register('qr-code',
         render: function(active) {
           const sampleOn = active.active;
           if(sampleOn) {
-            console.log(location.href);
             const url = location.href;
             return(<QrCodeImage url={url} />);
           }
