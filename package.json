@@ -1,0 +1,34 @@
+{
+  "name": "storybook-addon-qrcode",
+  "version": "1.0.0",
+  "description": "display qrcode",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "main": "dist/register.js",
+  "jsnext:main": "src/register.js",
+  "scripts": {
+    "prepare": "babel src -d dist"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "@storybook/addons": "4.0.0",
+    "qrcode": "^1.3.0",
+    "react": "^16.6.0"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
