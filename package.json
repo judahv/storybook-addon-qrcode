@@ -5,7 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "Miho Takeuchin (https://github.com/judahv/)",
+  "author": "Miho Takeuchi (https://github.com/judahv/)",
   "homepage": "https://github.com/judahv/storybook-addon-qrcode",
   "license": "MIT",
   "repository": {
