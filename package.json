@@ -5,9 +5,14 @@
   "publishConfig": {
     "access": "public"
   },
+  "author": "Miho Takeuchin (https://github.com/judahv/)",
+  "homepage": "https://github.com/judahv/storybook-addon-qrcode",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/judahv/storybook-addon-qrcode.git"
+  },
   "main": "dist/register.js",
-  "jsnext:main": "src/register.js",
   "scripts": {
     "prepare": "babel src -d dist"
   },
