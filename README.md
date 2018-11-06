@@ -23,4 +23,4 @@ import 'storybook-addon-qrcode/register';
 
 that's all!!
 
-![qrcode panel](/docs/img_qrcode_panel.png) !
+![qrcode panel](/docs/img_qrcode_panel.png)
