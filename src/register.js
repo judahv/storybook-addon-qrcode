@@ -9,7 +9,7 @@ class QrCodeImage extends Component {
 
   componentDidMount() {
     qrcode.toCanvas(canvas, this.props.url , function (error) {
-      if (error) { console.error(error) };
+      if (error) { console.error(error) }
     });
   }
 
@@ -22,18 +22,15 @@ class QrCodeImage extends Component {
 
 addons.register('qr-code',
   function() {
-    addons.addPanel('qr-code',
-      {
-        title: 'qr code',
-        render: function(active) {
-          const sampleOn = active.active;
-          if(sampleOn) {
-            const url = location.href;
-            return(<QrCodeImage url={url} />);
-          }
-        },
-      }
-    );
-
+    addons.addPanel('qr-code',{
+      title: 'qr code',
+      render: function(active) {
+        const sampleOn = active.active;
+        if(sampleOn) {
+          const url = location.href;
+          return(<QrCodeImage url={url} />);
+        }
+      },
+    });
   }
 );
