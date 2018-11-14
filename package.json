@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-qrcode",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Storybook Addon QR Code allows you to scan QR code",
   "publishConfig": {
     "access": "public"
