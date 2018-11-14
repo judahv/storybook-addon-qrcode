@@ -1,0 +1,39 @@
+{
+  "name": "storybook-addon-qrcode",
+  "version": "0.0.1",
+  "description": "Storybook Addon QR Code allows you to scan QR code",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Miho Takeuchi (https://github.com/judahv/)",
+  "homepage": "https://github.com/judahv/storybook-addon-qrcode",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/judahv/storybook-addon-qrcode.git"
+  },
+  "main": "dist/register.js",
+  "scripts": {
+    "prepare": "babel src -d dist"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "@storybook/addons": "4.0.0",
+    "qrcode": "^1.3.0",
+    "react": "^16.6.0"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
